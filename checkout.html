@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>WePower - development version</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="owlcarousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<!--        popup       -->
+<div class="popup-bg">
+    <div class="popup">
+        <div class="flex jc-space-between border-bottom">
+            <p class="popup-title">How WePower Savings:</p>
+            <a class="quit" href="#"><img src="images/quit.png"></a>
+        </div>
+        <p class="popup-main-text">Our mission is simple: To bring you the lowest online price, and give you the
+            greatest opportunity to save big.
+
+        <p class="popup-main-text">
+            WePower goes directly to manufacturers and secures deals, cutting out the middleman and ensuring the
+            lowest
+            possible price.</p>
+
+        <p class="popup-main-text">
+            We scour the internet and present you with the lowest online price from any of the following
+            retailers:<br/></p>
+        <img src="images/partners.jpg">
+
+        <p class="popup-footer-text">If you find a lower price on any of the 12 sites listed above,<br/>
+            WePower will match it.</p>
+
+    </div>
+</div>
+<!--        end of popup        -->
+
+
+<header>
+    <div class="container-desktop flex jc-space-between pd-top-40 relative">
+        <div class="mg-l-20px"><a href="#"><img src="images/logo.png"></a></div>
+        <div>
+            <h2 class="h2-font">We guarantee the lowest online price!*</h2>
+
+            <h3 class="center-text h3-font pd-b-3"><a class="open-popup" href="#">We'll prove it</a></h3>
+        </div>
+        <div class="mg-r-20px">
+            <span class="position-center-right f-phone grey"><i class="fa fa-phone fa-1-3x pd-r-10px"
+                                                                aria-hidden="true"></i> (855) 343-1989
+</span>
+
+            <div class="pd-l-20px menu-mobile">
+                <span class="pd-l-20px relative hide-lg menu-button"><a class="grey icon-desc menu-md" href="#"><i
+                        class="fa fa-bars fa-1-3x pd-r-10px grey"
+                        aria-hidden="true"></i>Menu</a></span>
+                <span class="pd-l-20px relative hide-lg menu-button searchbar-md-dd"><a class="grey icon-desc" href="#"><i
+                        class="fa fa-search fa-1-3x pd-r-10px grey"
+                        aria-hidden="true"></i>Search</a></span>
+
+                <div class="searchbar-md">
+                    <!--        dodać form      -->
+                    <input class="searchbar" type="text" name="search" placeholder="Search our products!">
+                    <a></a>
+                </div>
+                <span class="menu-button"><a class="grey icon-desc" href="#"><img class="pd-r-10px"
+                                                                                  src="images/users.gif">Refer a
+                    Friend!</a></span>
+                <!--        my account dropdown     -->
+                <span class="pd-l-20px relative menu-button"><a class="grey icon-desc my-account-dropdown" href="#"><i
+                        class="fa fa-user fa-1-3x pd-r-10px grey"
+                        aria-hidden="true"></i>Hi, XXXXX!</a>
+                <div class="my-account">
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">My Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Log in</a></li>
+                    </ul>
+                </div>
+                </span>
+                <span class="pd-l-20px cart-dropdown-opening menu-button"><a class="grey icon-desc" href="#"><i
+                        class="fa fa-shopping-cart fa-1-3x pd-r-10px grey"
+                        aria-hidden="true"></i>Cart</a></span>
+                <!--        no-items div        -->
+                <div class="no-items">
+                    <a class="quit-img" href="#"><img src="images/quit.png"></a>
+
+                    <p class="no-items-text1">Recently Added Items</p>
+
+                    <p class="no-items-text2">You have no items in your<br/>shopping cart.</p>
+                </div>
+
+                <!--        cart dropdown       -->
+
+                <div class="cart-dropdown">
+
+                    <!--        jedne produkt       -->
+                    <div class=" flex jc-space-between">
+                        <a class="quit-img" href="#"><img src="images/quit.png"></a>
+
+                        <div class="dropdown-img"><img src="images/ekspresso.png"></div>
+                        <div class="dropdown-description">
+                            <p class="product-title">Hamilton Beach</p>
+
+                            <p class="product-name">2312342 Power Elite...</p>
+                            <table class="dropdown-ul">
+                                <tr>
+                                    <td class="table-column-one">PRICE</td>
+                                    <td class="table-column-one">$25.50</td>
+                                </tr>
+                                <tr>
+                                    <td>QTY</td>
+                                    <td>
+                                        <form>
+                                            <input type="number" id="product-number-input">
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="item-properties flex jc-space-between">
+                        <a href="#" class="blue-link">Edit Item</a>
+                        <span class="bar">|</span>
+                        <a href="#">Remove Item</a>
+                        <span class="bar">|</span>
+                        <a href="#">Details</a>
+                    </div>
+                    <!--        koniec produktu     -->
+
+                    <p class="subtotal">CART SUBTOTAL: $pisiont</p>
+
+                    <p class="center-text"><a href="#" class="subs-button product-button">Check Out</a></p>
+                    <a class="view-cart" href="#">VIEW SHOPPING CART</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</header>
+
+<!--        menu        -->
+
+<div class="max-width bg-grey-lighter">
+    <div class="container-desktop nav hide-md hide-sm">
+        <ul class="flex jc-center shown level-1">
+            <li class="dropdown-open"><a href="#">COMPUTERS</a><!--        home dropdown onclick    -->
+                <div class="outdoor flex hidden dropdown-content">
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Bedroom</a></li>
+                        <li class="outdoor"><a href="#">Bathroom</a></li>
+                        <li class="outdoor"><a href="#">Floor Care</a></li>
+                        <li class="outdoor"><a href="#">Home Environment</a></li>
+                        <li class="outdoor"><a href="#">Kitchen</a></li>
+                    </ul>
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Personal Care</a></li>
+                        <li class="outdoor"><a href="#">Tools</a></li>
+                    </ul>
+                    <a class="hide-md" href="#"><img src="images/outdoor.jpg"></a>
+                </div>
+            </li>
+            <li class="dropdown-open"><a href="#">ELECTRONICS</a><!--        home dropdown onclick    -->
+                <div class="outdoor flex hidden dropdown-content">
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Bedroom</a></li>
+                        <li class="outdoor"><a href="#">Bathroom</a></li>
+                        <li class="outdoor"><a href="#">Floor Care</a></li>
+                        <li class="outdoor"><a href="#">Home Environment</a></li>
+                        <li class="outdoor"><a href="#">Kitchen</a></li>
+                    </ul>
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Personal Care</a></li>
+                        <li class="outdoor"><a href="#">Tools</a></li>
+                    </ul>
+                    <a class="hide-md" href="#"><img src="images/outdoor.jpg"></a>
+                </div>
+            </li>
+            <li class="dropdown-open"><a href="#">FITNESS</a><!--        home dropdown onclick    -->
+                <div class="outdoor flex hidden dropdown-content">
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Bedroom</a></li>
+                        <li class="outdoor"><a href="#">Bathroom</a></li>
+                        <li class="outdoor"><a href="#">Floor Care</a></li>
+                        <li class="outdoor"><a href="#">Home Environment</a></li>
+                        <li class="outdoor"><a href="#">Kitchen</a></li>
+                    </ul>
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Personal Care</a></li>
+                        <li class="outdoor"><a href="#">Tools</a></li>
+                    </ul>
+                    <a class="hide-md" href="#"><img src="images/outdoor.jpg"></a>
+                </div>
+            </li>
+            <li class="dropdown-open"><a href="#">HOME</a>
+                <!--        home dropdown onclick    -->
+                <div class="outdoor flex hidden dropdown-content">
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Bedroom</a></li>
+                        <li class="outdoor"><a href="#">Bathroom</a></li>
+                        <li class="outdoor"><a href="#">Floor Care</a></li>
+                        <li class="outdoor"><a href="#">Home Environment</a></li>
+                        <li class="outdoor"><a href="#">Kitchen</a></li>
+                    </ul>
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Personal Care</a></li>
+                        <li class="outdoor"><a href="#">Tools</a></li>
+                    </ul>
+                    <a class="hide-md" href="#"><img src="images/outdoor.jpg"></a>
+                </div>
+                <!--        end of dropdown     -->
+            </li>
+            <li class="dropdown-open"><a href="#">OUTDOOR</a>
+                <!--        outdoor dropdown onclick    -->
+                <div class="outdoor flex hidden dropdown-content">
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Patio Furniture</a></li>
+                        <li class="outdoor"><a href="#">Outdoor Cooking</a></li>
+                        <li class="outdoor"><a href="#">Lawn & Garden</a></li>
+                        <li class="outdoor"><a href="#">Patio Umbrellas</a></li>
+                        <li class="outdoor"><a href="#">Outdoor Decor</a></li>
+                    </ul>
+                    <ul class="outdoor">
+                        <li class="outdoor"><a href="#">Backyard Play</a></li>
+                        <li class="outdoor"><a href="#">Outdoor Lighting</a></li>
+                        <li class="outdoor"><a href="#">Outdoor Rugs</a></li>
+                    </ul>
+                    <a class="hide-md" href="#"><img src="images/outdoor.jpg"></a>
+                </div>
+                <!--        end of dropdown     --></li>
+
+            <li><a class="hide" href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+        </ul>
+        <!--    searchbar       -->
+        <div class="show relative">
+            <!--        dodać form      -->
+            <input class="searchbar" type="text" name="search" placeholder="Search our products!">
+            <a></a>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<!--        end menu        -->
+
+<!--        free bar        -->
+
+<div class="max-width free-bar">Free Shipping on Orders Over $50</div>
+
+<!--        end of free bar     -->
+
+<!--        checkout content     -->
+
+<div class="max-width">
+    <div class="container-desktop">
+        <p class="h5-font uppercase underline">checkout</p>
+
+        <div class="flex">
+
+            <!--        this part refers to form        -->
+
+            <div class="flex-grow-3 relative">
+                <span class="req-absolute">* Required Fields</span>
+
+                <p class="h7-font blue uppercase checkup-titles">billing information</p>
+
+                <form>
+                    <ul class="form-style-1">
+                        <li><label class="uppercase">First Name <span class="required">*</span></label><input
+                                type="text" name="field1"
+                                class="field-divided"
+                                placeholder=""/></li>
+                        <li><label class="uppercase">Last Name <span class="required">*</span></label><input type="text"
+                                                                                                             name="field1"
+                                                                                                             class="field-divided"
+                                                                                                             placeholder=""/>
+                        </li>
+                        <li><label class="uppercase">Company </label><input type="text" name="field1"
+                                                                            class="field-divided"
+                                                                            placeholder=""/></li>
+                        <li><label class="uppercase">Street Address <span class="required">*</span></label><input
+                                type="text" name="field1"
+                                class="field-divided"
+                                placeholder=""/></li>
+                        <li><label class="uppercase">address line 2 </label><input type="text" name="field1"
+                                                                                   class="field-divided"
+                                                                                   placeholder=""/></li>
+                        <li><label class="uppercase">city <span class="required">*</span></label><input type="text"
+                                                                                                        name="field1"
+                                                                                                        class="field-divided"
+                                                                                                        placeholder=""/>
+                        </li>
+                        <li>
+                            <label class="uppercase">state/province <span class="required">*</span></label>
+                            <select name="field4" class="field-select">
+                                <option value="country">Pcim Górny</option>
+                                <option value="country">Poczopek</option>
+                                <option value="country">Supraśl</option>
+                            </select>
+                        </li>
+
+                        <li>
+                            <label class="uppercase">zip <span class="required">*</span></label>
+                            <input type="email" name="field3" class="field-long"/>
+                        </li>
+                        <li>
+                            <label class="uppercase">country <span class="required">*</span></label>
+                            <select name="field4" class="field-select">
+                                <option value="country">Pcim Górny</option>
+                                <option value="country">Poczopek</option>
+                                <option value="country">Supraśl</option>
+                            </select>
+                        </li>
+                        <li><label class="uppercase">telephone <span class="required">*</span></label><input type="text"
+                                                                                                             name="field1"
+                                                                                                             class="field-divided"
+                                                                                                             placeholder=""/>
+                        </li>
+                        <li><label class="uppercase">fax</label><input type="text" name="field1"
+                                                                       class="field-divided"
+                                                                       placeholder=""/></li>
+                        <li class="relative flex">
+                            <input class="radio" type="radio" name="ship" value="" checked>
+                            <label class="validate">Ship to this address</label>
+                        </li>
+                        <li class="relative flex">
+                            <input class="radio" type="radio" name="ship" value="" checked>
+                            <label class="validate">Ship to different address</label>
+                        </li>
+                        <li class="li-underline">
+                            <input type="submit" value="CONTINUE"/>
+                        </li>
+
+                    </ul>
+                </form>
+                <p class="h7-font blue uppercase border-up-down"><a href="#">shipping information</a></p>
+
+                <p class="h7-font blue uppercase border-up-down"><a href="#">shipping method</a></p>
+
+                <p class="h7-font blue uppercase border-up-down"><a href="#">payment information</a></p>
+
+                <p class="h7-font blue uppercase border-up-down"><a href="#">order review</a></p>
+
+            </div>
+
+
+            <!--       form end         -->
+
+            <div class="flex-grow-1">
+                <ul>
+                    <li class="checkout-p uppercase"><a href="#">your checkout process</a></li>
+
+                    <li class="checkout-p uppercase"><a href="#">billing address</a></li>
+
+                    <li class="checkout-p uppercase"><a href="#">shipping address</a></li>
+
+                    <li class="checkout-p uppercase"><a href="#">shipping method</a></li>
+
+                    <li class="checkout-p uppercase"><a href="#">payment method</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--        end of checkout content-->
+
+<!--        footer      -->
+
+<div class="max-width footer">
+    <div class="container-desktop flex jc-space-around relative flex-column">
+
+        <!--        first column        -->
+        <div class="flex-column-down">
+            <div class="footer-1">
+                <p class="question">Having some trouble?<br/>Just want to say hello?</p>
+
+                <p class="phone"><i class="fa fa-phone" aria-hidden="true"></i> GIVE US A RING!</p>
+
+                <p class="number">(855) 343-1989</p>
+            </div>
+
+            <!--        second column       -->
+
+            <div class="footer-2 flex jc-space-between">
+                <div class="column">
+                    <ul class="list-font">
+                        <li class="list-title">Customers</li>
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+
+                <div class="column flex jc-space-between">
+                    <ul class="list-font">
+                        <li class="list-title">About Us</li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Offices</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="column flex">
+                    <ul class="list-font">
+                        <li class="list-title">Follow Us</li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i> Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--        third column        -->
+
+        <div class="footer-3">
+            <div class="flex-column">
+                <p class="newsletter list-title">Subscribe to our newsletter</p>
+
+                <form class="flex">
+                    <input class="subscribe" type="text" name="search" placeholder="email address">
+                    <a href="#" class="subs-button">Subscribe</a>
+                </form>
+            </div>
+        </div>
+        <img class="up-arrow" src="images/up-arrow.png">
+
+    </div>
+    <p class="star">*WePower bucks have no monetary value, are not transferable, and are only redeemable for products
+        purchased on WePower.com.</p>
+</div>
+
+<!--        end of footer       -->
+
+<!--        copyright bar       -->
+
+<div class="max-width copyright">
+    <a href="#"><span>Privacy </span></a><span>  &bull; </span>
+    <a href="#"><span>Tos </span></a><span>  &bull; </span>
+    <span> &copy; 2015 WePower Inc.</span>
+</div>
+
+
+</body>
+</html>

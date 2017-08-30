@@ -1,0 +1,193 @@
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-3 {
+    flex-grow: 3;
+}
+
+.form-style-1 {
+    max-width: 360px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.ul-padding-0 {
+    padding: 0;
+}
+
+.ul-bulls-margin {
+    margin-left: 20px;
+}
+
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style-1 label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus {
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+.form-style-1 .field-divided {
+    width: 100%;
+}
+
+.form-style-1 .field-long {
+    width: 100%;
+}
+
+.form-style-1 .field-select {
+    width: 100%;
+}
+
+.form-style-1 .field-textarea {
+    height: 100px;
+}
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button] {
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover {
+    background: #4691A4;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-style-1 .required {
+    color: red;
+}
+
+//      radio
+
+.radio {
+    outline-style: none;
+    position: absolute;
+    top: calc(50% - 6.4px);
+}
+
+label.validate {
+    padding-left: 20px;
+}
+
+.checkup-titles {
+    padding-left: 20px;
+}
+
+.create-account-titles {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+
+//      required absolute position
+
+.req-absolute {
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 12px;
+    @media all and (max-width: 520px) {
+        display: inline-block;
+        position: initial;
+        margin: 20px 0 0 20px;
+
+    }
+}
+.required {
+    color: red;
+    font-size: 12px;
+}
+.checkout-p {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.border-up-down {
+    border-top: 1px solid $grey-lighter;
+    padding-top: 10px;
+    margin-left: 20px;
+    &:last-child {
+        border-bottom: 1px solid $grey-lighter;
+        padding-bottom: 10px;
+    }
+}
+
+//      create account part
+
+.checkbox {
+    background-color: $grey-lighter;
+    position: relative;
+    p {
+        padding-left: 25px;
+    }
+    input {
+        position: absolute;
+        top: calc(50% - 6.4px);
+        left: 5px;
+        outline-style: none;
+    }
+}
+.list {
+    list-style-type: none;
+    padding-left: 20px;
+    li {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+footer > li {
+    white-space: nowrap;
+}

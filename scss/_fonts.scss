@@ -1,0 +1,138 @@
+$phone-font: Myriad Pro, Arial, sans-serif;
+
+$tahoma: Tahoma, Verdana, Segoe, sans-serif;
+
+$main-font: 'PT Sans', sans-serif;
+
+.h2-font {
+    font-family: $tahoma;
+    font-style: italic;
+    font-size: 20px;
+    @media only screen and (max-width: 1020px) {
+        font-size: 16px;
+    }
+}
+
+.h3-font {
+    font-family: $tahoma;
+    font-size: 14px;
+    color: $grey;
+}
+
+.h4-font {
+    color: $h4-color;
+    font-family: $tahoma;
+    font-size: 20px;
+}
+
+.h5-font {
+    color: #000000;
+    font-family: $tahoma;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.h6-font {
+    color: #000000;
+    font-family: $tahoma;
+    font-size: 20px;
+    margin-top: 11px;
+}
+
+.h7-font {
+    color: #000000;
+    font-family: $tahoma;
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+.h8-font {
+    color: $grey-light;
+    font-family: $tahoma;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.italics {
+    color: #000000;
+    font-family: $tahoma;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.ul-font {
+    color: #000000;
+    font-family: $tahoma;
+    font-size: 14px;
+}
+
+.list-title {
+    font-family: $tahoma;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list-font {
+    font-size: 14px;
+}
+
+.featured {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.blue-title {
+    text-align: center;
+    color: $blue-title;
+    font-size: 20px;
+}
+
+.blue {
+    color: $blue-title;
+}
+
+.blue a {
+    color: $blue-title;
+}
+
+.wepower {
+    text-align: center;
+    color: #cbcbcb;
+    font-size: 12px;
+}
+
+.icon-desc {
+    font-size: 14px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    border-bottom: 1px solid $grey;
+    padding-bottom: 10px;
+}
+.underline-nopadding {
+    border-bottom: 1px solid $grey;
+}
+
+.refer {
+    font-style: normal;
+    padding-right: 2px;
+    color: $blue-light;
+    text-decoration: underline;
+}
+
+.blue-link {
+    color: $blue-light;
+}
+
+.text-pd-l {
+    padding-left: 12px;
+}
+.text-align-right {
+    text-align: right;
+}

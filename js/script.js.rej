@@ -1,0 +1,9 @@
+diff a/js/script.js b/js/script.js	(rejected hunks)
+@@ -3,6 +3,7 @@
+             $(".show").addClass('shown').removeClass('hidden');
+             //$(".show > a").addClass('.shown').removeClass('.hidden');
+ 
++
+             // tu zamknięcie cearchbara
+             $('.show > a').on("click", function () {
+                 $(".hidden").addClass('shown').removeClass('hidden');

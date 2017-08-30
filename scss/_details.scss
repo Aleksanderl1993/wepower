@@ -1,0 +1,78 @@
+.big-img, .small-img {
+    border: 1px solid $grey-light;
+    width: 100%;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+.small-img {
+    width: 23%;
+}
+.smaller-img {
+    border: 1px solid $grey-light;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+.details {
+    margin-bottom: 20px;
+    p {
+        margin: 0 0 5px 15px;
+    }
+    input {
+        position: absolute;
+        top: calc(50% - 6.4px);
+    }
+}
+.shopping-cart {
+    background-color: $grey-lighter;
+    border: 1px solid $grey-light;
+    position: relative;
+
+    table {
+        display: block;
+        margin: 15px;
+        padding-bottom: 15px;
+        border-collapse: collapse;
+        border-bottom: 1px solid $grey-light;
+        a {
+            display: block;
+            height: 40px;
+        }
+    }
+
+    span {
+        display: inline-block;
+        margin: 0 0 15px 15px;
+        a {
+            margin-left: 5px;
+        }
+    }
+}
+
+.number-details {
+    width: 38.4px;
+    height: 38.4px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid $grey-light;
+    padding: 0;
+}
+.decreasing-font-margin p {
+    margin: 5px 0;
+}
+.description-box {
+    font-size: 14px;
+    line-height: 150%;
+    border: 1px solid $grey-light;
+    background-color: $grey-lighter;
+    padding: 10px;
+}

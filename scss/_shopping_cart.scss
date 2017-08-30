@@ -1,0 +1,142 @@
+.div-underline {
+    border-bottom: 1px solid $blue-light;
+}
+
+.column-left {
+    width: calc(100% - 400px);
+    table {
+        width: 96%;
+        margin-right: auto;
+        border-spacing: 0;
+    }
+    tbody td {
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        margin: 5px 0;
+        padding: 15px 5px;
+        vertical-align: top;
+        input {
+            width: 20px;
+        }
+    }
+    thead {
+
+    }
+    thead:before {
+        content: '';
+        display: block;
+        height: 20px;
+    }
+    tfoot {
+
+        &:after {
+            content: '';
+            display: block;
+            height: 10px;
+        }
+        &:before {
+            content: '';
+            display: block;
+            height: 10px;
+        }
+
+        tr td {
+            text-align: right;
+        }
+    }
+    @media all and (max-width: $bp-md) {
+        width: 100%;
+        table {
+            width: 100%;
+        }
+    }
+}
+
+.column-right {
+    width: 400px;
+    justify-content: flex-end;
+    @media all and (max-width: $bp-md) {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    tbody td input {
+        margin-bottom: 10px;
+    }
+    tfoot th, td {
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.grey-box {
+    box-sizing: border-box;
+    background-color: $grey-lighter;
+    border: 1px solid $grey-light;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grey-box table {
+    width: 100%;
+    tr {
+        td {
+            width: 100%;
+            input {
+                font-size: inherit;
+                width: 95%;
+            }
+        }
+    }
+}
+
+.tr-border td {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin: 5px 0;
+    padding: 8px 0;
+}
+
+.td-right tr td {
+    text-align: right;
+}
+
+.td-center {
+    text-align: center;
+}
+
+.td-left {
+    text-align: left;
+}
+
+.td-right {
+    text-align: right;
+}
+
+.flex-column-cart {
+    @media all and (max-width: $bp-md) {
+        flex-direction: column;
+    }
+}
+.bluebox {
+    background-color: #def0fa;
+    align-items: baseline;
+}
+
+.img-border {
+    border: 1px solid $grey-light;
+}
+.greybox-md {
+    @media all and (max-width: $bp-md) {
+        width: 49%;
+    }
+}

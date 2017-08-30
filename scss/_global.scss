@@ -1,0 +1,142 @@
+.hidden {
+    display: none !important;
+}
+
+.shown {
+    display: auto;
+}
+
+.position-center-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.container-desktop {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.mg-t-30px {
+    margin-top: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.jc-space-between {
+    justify-content: space-between;
+}
+
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.relative {
+    position: relative;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
+.link-underline {
+    text-decoration: underline;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    text-align: center;
+}
+
+.owl-carousel .owl-buttons {
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: calc(50% - 12px);
+
+        i {
+            color: #e8e2de;
+        }
+    }
+
+    .owl-prev {
+        left: 5px;
+    }
+
+    .owl-next {
+        right: 5px;
+    }
+}
+.flex-column-down > a {
+    white-space: nowrap;
+}
+
+.owl-item img {
+    max-width: 100%;
+    height: auto;
+}
+.img-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin-left-xs {
+    margin-left: 1.2em;
+}
+.margin-right-xs {
+    margin-right: 1.2em;
+}
+
+
+$bp-lg: 981px;
+$bp-md: 980px;
+$bp-sm: 770px;
+
+@media all and (min-width: $bp-lg) {
+    .hide-lg {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: $bp-md) {
+    .hide-md {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: $bp-sm) {
+    .hide-sm {
+        display: none !important;
+    }
+    .logo-sm {
+        margin: 10px auto 40px auto !important;
+    }
+    .flex-column-down > li {
+        padding: 0;
+    }
+}

@@ -1,0 +1,35 @@
+.share {
+    max-height: 92px;
+    width: 212px;
+    a {
+        display: block;
+    }
+}
+.order img {
+    max-width: 100%;
+    height: auto;
+}
+.about-order {
+    max-width: 600px;
+}
+.order-box {
+    padding: 20px 0;
+    border-top: 1px solid $grey-light;
+    border-bottom: 1px solid $grey-light;
+    margin-bottom: 30px;
+}
+.link-underline {
+
+}
+.border-blue {
+    border: 2px solid $blue-light;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto 50px auto;
+}
+
+/*------------------------------------*\
+                  LOGIN
+\*------------------------------------*/
+
+
